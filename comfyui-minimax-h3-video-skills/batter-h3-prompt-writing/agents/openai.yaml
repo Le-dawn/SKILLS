@@ -1,0 +1,4 @@
+interface:
+  display_name: "Batter H3 Prompt Writing"
+  short_description: "Plan long videos and write coherent H3 segment prompts"
+  default_prompt: "Use $batter-h3-prompt-writing to plan this video into coherent generation segments and write a standalone MiniMax H3 prompt for each segment."

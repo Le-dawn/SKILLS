@@ -1,0 +1,4 @@
+interface:
+  display_name: "ComfyUI 视频制作"
+  short_description: "基于 H3 二采工作流，统筹独立短视频与短剧的规划、生成、续接和验收"
+  default_prompt: "使用 $comfyui-video-production，按当前任务选择独立短视频或短剧流程，完成已授权的制作阶段。"

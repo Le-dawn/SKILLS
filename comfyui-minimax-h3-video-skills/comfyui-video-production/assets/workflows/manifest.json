@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "date": "2026-10-30",
+  "files": [
+    {
+      "path": "h3_direct_second_pass_v01.api.json",
+      "role": "production_api_template",
+      "sha256": "f9c2fb37acde81f2d9e94abb0423c7a89e07df9fc26059f4f9c8a698c2b1d2f8",
+      "provenance": "既有共享完整二采 API 的逐字节副本；已使用的采样安排保持不变。",
+      "source_sha256": "f9c2fb37acde81f2d9e94abb0423c7a89e07df9fc26059f4f9c8a698c2b1d2f8",
+      "changes": []
+    },
+    {
+      "path": "source/h3_multireference_source_sanitized_v01.canvas.json",
+      "role": "sanitized_source_canvas_reference_not_production_equivalent",
+      "sha256": "5da65dc45f4ce10acc05ba3d63484daea9fa77b0976c4f8aa3222357dd16b02d",
+      "provenance": "来自仓库原始多参考画布的旁路 SageAttention 版本；原件不修改。",
+      "source_filename": "YZ金鱼-MiniMax+H3-多参考生视频-优化版-旁路SageAttention.json",
+      "source_sha256": "3d44cec25d03b5ee8dac1ed51ed68d106f6fe82592c64b820fdc296934152044",
+      "changes": [
+        "清空旧示例提示词及图片、音频、视频选择",
+        "删除媒体播放预览元数据和远端播放地址",
+        "中性化输出文件前缀与两条说明文字"
+      ],
+      "limitations": [
+        "保留原画布节点、连线与组开关，仅作来源和可视化编辑参考",
+        "包含额外 LoRA、参考视频及前端节点，不等同于执行 API，也未做新的 UI 运行验收"
+      ]
+    }
+  ]
+}
